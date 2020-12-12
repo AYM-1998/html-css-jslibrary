@@ -1,0 +1,144 @@
+body{
+    height: 900px;
+ }
+
+/* Start navbar */
+.navbar-brand{
+    
+    width: 49%;
+    float: left;
+    font-style: italic;
+    font-family: cursive;
+    word-spacing: 10px;
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  
+    width: 51%;
+    float: right;
+ 
+}
+
+
+/* End navbar */
+/* Strat carsoul */
+.slider .carousel-inner h1{
+	position: absolute;
+	top: 20%;
+	left: 3%;
+	color: white;
+	z-index:3;
+	font-size: 55px;
+	max-width: 800px;
+   padding: 30px;
+
+}
+
+.slider h1{
+    animation-name: ahmad;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* End carsoul */
+
+/* Start Cards */
+
+.section3{
+    padding-top: 30px;
+    padding-left: 75px;
+    
+
+
+}
+.section3 h1{
+    padding-bottom: 20px;
+
+    animation-name: ahmad;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+/* End Cards */
+
+/* Start Footer */
+
+.page-footer{
+    background-color: black;
+}
+
+.page-footer h5{
+    color: white;
+}
+.page-footer p{
+    color: white;
+}
+
+/* End footer */
+
+.card{
+    border: 0px;
+   
+}
+.card h1{
+    animation-name: ahmad;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+a:hover{
+    padding-top: 10px;
+   
+}
+
+.card:hover{
+   
+    padding-top: 15px;
+    opacity: 70%;
+    transition: 0.4s;
+    border:none;
+  
+}
+
+
+
+@keyframes ahmad{
+    10%{
+        color:red;
+    }
+    20%{
+        color:blue;
+    }
+    30%{
+        color: green;
+    }
+  
+
+    40%{
+    word-spacing: 10px;
+    
+    }
+}
+
+
+
+
+/* Start foooter */
+
+label{
+    color:white
+}
+
+
+.form-control{
+    font-size: 20px;
+}
+
+small{
+ 
+    color:red; 
+}
+/* End footer */
+
+
